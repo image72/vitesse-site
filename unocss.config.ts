@@ -160,7 +160,7 @@ export default defineConfig({
   transformers: [
     transformerDirectives(),
     transformerVariantGroup(),
-    transformerCompileClass({ trigger: '&' }),
+    transformerCompileClass(),
   ],
   safelist: 'prose prose-sm m-auto text-left'.split(' '),
 });
