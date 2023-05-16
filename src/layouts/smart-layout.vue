@@ -1,7 +1,7 @@
 <script>
 import { markRaw, watch } from "vue";
 import { useRoute } from "vue-router";
-import AppLayoutDefault from "./AppLayoutDefault";
+import AppLayoutDefault from "./normal.vue";
 
 export default {
   name: "AppLayout",

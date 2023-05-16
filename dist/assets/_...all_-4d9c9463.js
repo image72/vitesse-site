@@ -1,0 +1,1 @@
+import{f as t,o as c,c as o,t as e}from"./app-9315bbf0.js";const s={};function n(_,r){return c(),o("div",null,"not found")}typeof e=="function"&&e(s);const f=t(s,[["render",n],["__file","/Users/image72/projects/vitesse-site/src/pages/[...all].vue"]]);export{f as default};

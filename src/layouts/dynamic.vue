@@ -1,5 +1,5 @@
 <script>
-import AppLayoutDefault from "./AppLayoutDefault";
+import AppLayoutDefault from "./normal.vue";
 
 export default {
   name: "AppLayout",

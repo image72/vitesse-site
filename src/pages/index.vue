@@ -9,8 +9,6 @@ const router = useRouter();
 const go = () => {
   if (name) router.push(`/hi/${encodeURIComponent(name)}`);
 };
-
-const { t } = useI18n();
 </script>
 
 <template>
@@ -28,7 +26,7 @@ const { t } = useI18n();
       </a>
     </p>
     <p>
-      <em class="text-sm opacity-75">{{ t("intro.desc") }}</em>
+      <em class="text-sm opacity-75">desc</em>
     </p>
 
     <div py-4 />
@@ -39,19 +37,17 @@ const { t } = useI18n();
       autocomplete="false"
       @keydown.enter="go"
     />
-    <label class="hidden" for="input">{{ t("intro.whats-your-name") }}</label>
+    <label class="hidden" for="input">what your name</label>
 
     <div>
-      <button class="btn m-3 text-sm" :disabled="!name" @click="go">
-        {{ t("button.go") }}
-      </button>
+      <button class="btn m-3 text-sm" :disabled="!name" @click="go">go</button>
     </div>
   </div>
 </template>
 
-<!-- <route lang="yaml">
+<route lang="yaml">
 meta:
   layout: home
-</route> -->
+</route>
 /* route name: home meta: layout: default requiresAuth: false id: 1234 string:
 "1234" */
